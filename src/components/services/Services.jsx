@@ -1,23 +1,24 @@
 import React from "react";
 import ServiceItem from "./ServiceItem";
 import "./service.css";
+import { laptop, responsive, web } from "../../assets/assets";
 
 const Services = () => {
     const servicesData = [
         {
           title: "WEB DESIGNING",
           description: "Crafting visually appealing and user-friendly websites that engage and inspire users.",
-          icon: "/public/web-design.png",
+          icon: web,
         },
         {
           title: "WEB DEVELOPMENT",
           description: "Building robust and scalable web applications tailored to meet your business needs.",
-          icon: "/public/laptop.png",
+          icon: laptop,
         },
         {
           title: "RESPONSIVE DESIGN",
           description: "Ensuring seamless user experiences across all devices with adaptive and responsive designs.",
-          icon: "/public/smartphone-call.png",
+          icon: responsive,
         },
       ];
       
