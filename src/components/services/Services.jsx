@@ -7,17 +7,17 @@ const Services = () => {
         {
           title: "WEB DESIGNING",
           description: "Crafting visually appealing and user-friendly websites that engage and inspire users.",
-          icon: "/src/assets/web-design.png",
+          icon: "/public/web-design.png",
         },
         {
           title: "WEB DEVELOPMENT",
           description: "Building robust and scalable web applications tailored to meet your business needs.",
-          icon: "/src/assets/laptop.png",
+          icon: "/public/laptop.png",
         },
         {
           title: "RESPONSIVE DESIGN",
           description: "Ensuring seamless user experiences across all devices with adaptive and responsive designs.",
-          icon: "/src/assets/smartphone-call.png",
+          icon: "/public/smartphone-call.png",
         },
       ];
       

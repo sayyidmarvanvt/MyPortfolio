@@ -12,7 +12,7 @@ const projects = [
     stacks: ["React", "Node.js", "Express.js", "MongoDB", "Stripe"],
     link: "https://foodeli-frontend.onrender.com/",
     github: "https://github.com/sayyidmarvanvt/Foodeli",
-    image: "/src/assets/Foodeli.png", 
+    image: "/public/Foodeli.png", 
     category: "Fullstack",
   },
   // {
@@ -32,7 +32,7 @@ const projects = [
     stacks: ["React", "Redux Toolkit", "Node.js", "Express.js", "MongoDB"],
     link: "https://real-estate-mhee.onrender.com/",
     github: "https://github.com/sayyidmarvanvt/Exedo-estate",
-    image: "src/assets/ExedoEstate.png", 
+    image: "public/ExedoEstate.png", 
     category: "Fullstack",
   },
   // {
@@ -52,7 +52,7 @@ const projects = [
     stacks: ["React.js", "Framer Motion", "Tailwind CSS", "Nodemailer"],
     link: "http://www.smarthost.org.uk",
     github: "https://github.com/sayyidmarvanvt/jmk",
-    image: "/src/assets/SmartHost.png", 
+    image: "/public/SmartHost.png", 
     category: "React",
   },
   {
@@ -62,7 +62,7 @@ const projects = [
     stacks: ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
     link: "https://modern-bankapp.vercel.app/", 
     github: "https://github.com/sayyidmarvanvt/modern-bankapp",
-    image: "/src/assets/ModernBank.png", 
+    image: "/public/ModernBank.png", 
     category: "React",
   },
   {
@@ -72,7 +72,7 @@ const projects = [
     stacks: ["React", "TMDB API", "Axios", "Styled-Components", "Tailwind CSS"],
     link: "https://disney-clone-sable-one.vercel.app", 
     github: "https://github.com/sayyidmarvanvt/Disney-clone",
-    image: "/src/assets/Disney.png",
+    image: "/public/Disney.png",
     category: "React",
   },
   {
@@ -82,7 +82,7 @@ const projects = [
     stacks: ["React", "Gemini API", "Vercel"],
     link: "https://gemini-kappa-azure.vercel.app/", 
     github: "https://github.com/sayyidmarvanvt/Gemini",
-    image: "/src/assets/Gemini.png", 
+    image: "/public/Gemini.png", 
     category: "React",
   },
   {
@@ -92,7 +92,7 @@ const projects = [
     stacks:  ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
     link: "https://small-shopping-cart-peach.vercel.app",
     github: "https://github.com/sayyidmarvanvt/small-shopping-cart",
-    image: "/src/assets/SmallShoppingCart.png",
+    image: "/public/SmallShoppingCart.png",
     category: "React,",
   },
   {
@@ -102,7 +102,7 @@ const projects = [
     stacks: ["React"],
     link: "https://nike-front-dusky.vercel.app",
     github: "https://github.com/sayyidmarvanvt/nike-front",
-    image: "/src/assets/NikePoster.png", 
+    image: "/public/NikePoster.png", 
     category: "React",
   },
 ];
