@@ -6,5 +6,6 @@ import modernbank from "./ModernBank.png"
 import nike from "./NikePoster.png"
 import shoppingcart from "./SmallShoppingCart.png"
 import smarthost from "./SmartHost.png"
+import eventplanner360 from "./eventPlanner360.png"
 
-export {disney,exedoestate,foodeli,gemini,modernbank,nike,shoppingcart,smarthost}
+export {disney,exedoestate,foodeli,gemini,modernbank,nike,shoppingcart,smarthost,eventplanner360}

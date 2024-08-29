@@ -3,6 +3,7 @@ import "./work.css";
 import Projects from "./Projects";
 import {
   disney,
+  eventplanner360,
   exedoestate,
   foodeli,
   gemini,
@@ -38,7 +39,7 @@ const projects = [
     description:
       "A property listing application using the MERN stack with secure authentication and CRUD operations for managing property listings.",
     stacks: ["React", "Redux Toolkit", "Node.js", "Express.js", "MongoDB"],
-    link: "https://real-estate-mhee.onrender.com/",
+    link: "https://real-estate-mhee.onrender.com",
     github: "https://github.com/sayyidmarvanvt/Exedo-estate",
     image: exedoestate,
     category: "Fullstack",
@@ -112,6 +113,16 @@ const projects = [
     github: "https://github.com/sayyidmarvanvt/nike-front",
     image: nike,
     category: "React",
+  },
+  {
+    name: "EventPlanner360",
+    description:
+      "An event planning platform for creating events, managing vendors and guests, tracking RSVPs, and sending invitations.",
+    stacks: ["React.js", "Node.js", "Express", "MongoDB", "Nodemailer"],
+    link: "https://eventplanner-frontend-sdjb.onrender.com/",
+    github: "https://github.com/sayyidmarvanvt/CBT-CIP",
+    image: eventplanner360, 
+    category: "Fullstack",
   },
 ];
 
