@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import { files, work2 } from "../../assets/assets";
+import { files, resume, work2 } from "../../assets/assets";
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
             possess an impressive arsenal of skills in HTML, CSS, JavaScript,
             React, Tailwind, and Node.js. 
           </p>
-          <a download="" href="" className="button button--flex">
+          <a download="Sayyid_Marvan_Resume.pdf" href={resume} className="button button--flex">
             Download CV
             <img src={files} alt="" className="button__icon" />
           </a>
