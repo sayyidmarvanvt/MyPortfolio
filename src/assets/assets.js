@@ -8,4 +8,5 @@ import web from "./web-design.png";
 import responsive from "./smartphone-call.png"
 import resume from "./SayyidMarvanVT_Resume.pdf"
 
+
 export { hand, files, send, scroll, work2, laptop, web, responsive,resume };

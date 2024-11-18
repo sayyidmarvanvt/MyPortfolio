@@ -11,9 +11,20 @@ import {
   nike,
   shoppingcart,
   smarthost,
+  crown
 } from "../../assets/projects";
 
 const projects = [
+  {
+    name: "Crown Clothing",
+    description:
+      "A fully functional e-commerce store with secure payment integration using Stripe. Implemented serverless architecture with Netlify for backend operations and used Firebase for user authentication.",
+    stacks: ["React", "Redux Toolkit", "Stripe", "Firebase", "Netlify"],
+    link: "https://crown-clothing-be9922.netlify.app/",
+    github: "https://github.com/sayyidmarvanvt/crwn-clothing-v2",
+    image: crown, // Replace with the appropriate image variable or path
+    category: "Fullstack",
+  },
   {
     name: "Foodeli",
     description:
@@ -121,7 +132,7 @@ const projects = [
     stacks: ["React.js", "Node.js", "Express", "MongoDB", "Nodemailer"],
     link: "https://eventplanner-frontend-sdjb.onrender.com/",
     github: "https://github.com/sayyidmarvanvt/CBT-CIP",
-    image: eventplanner360, 
+    image: eventplanner360,
     category: "Fullstack",
   },
 ];
