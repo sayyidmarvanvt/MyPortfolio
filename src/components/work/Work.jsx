@@ -18,7 +18,7 @@ const projects = [
   {
     name: "Crown Clothing",
     description:
-      "A fully functional e-commerce store with secure payment integration using Stripe. Implemented serverless architecture with Netlify for backend operations and used Firebase for user authentication.",
+      "A full-stack e-commerce store with Stripe payment integration, serverless backend on Netlify, and Firebase authentication.",
     stacks: ["React", "Redux Toolkit", "Stripe", "Firebase", "Netlify"],
     link: "https://crown-clothing-be9922.netlify.app/",
     github: "https://github.com/sayyidmarvanvt/crwn-clothing-v2",
