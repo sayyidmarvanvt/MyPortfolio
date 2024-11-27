@@ -28,7 +28,7 @@ const projects = [
   {
     name: "Foodeli",
     description:
-      " A comprehensive food ordering platform built with the MERN stack, featuring user authentication, shopping cart functionality, and Stripe payment integration.",
+      "A food ordering platform built with the MERN stack, featuring user authentication, shopping cart, and Stripe integration.",
     stacks: ["React", "Node.js", "Express.js", "MongoDB", "Stripe"],
     link: "https://foodeli-frontend.onrender.com/",
     github: "https://github.com/sayyidmarvanvt/Foodeli",
