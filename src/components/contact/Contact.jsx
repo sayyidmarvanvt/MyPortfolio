@@ -5,7 +5,6 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
-  console.log();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -44,18 +43,14 @@ const Contact = () => {
       <div className="contact__container container grid">
         <div className="contact__content">
           <div className="contact__info">
-            <a
-              href="mailto:sayyidmarvanvt@gmail.com"
-              className="contact__card"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="mailto:sayyidmarvanvt@gmail.com" className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
                 sayyidmarvanvt@gmail.com
               </span>
             </a>
+
             <a
               href="https://wa.me/9567080872"
               className="contact__card"
@@ -80,7 +75,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="contact__content">
+        {/* <div className="contact__content">
           <form ref={form} onSubmit={sendEmail} className="contact__form">
             <div className="contact__form-div">
               <input
@@ -112,7 +107,7 @@ const Contact = () => {
               <img src={send} alt="send icon" className="button__icon" />
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </section>
   );
