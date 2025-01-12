@@ -14,9 +14,13 @@ const About = () => {
           <p className="about__description">
             As a Full-Stack Developer with expertise in the MERN stack, I
             possess an impressive arsenal of skills in HTML, CSS, JavaScript,
-            React, Tailwind, and Node.js. 
+            React, Tailwind, and Node.js.
           </p>
-          <a download="Sayyid_Marvan_Resume.pdf" href={resume} className="button button--flex">
+          <a
+            download="SayyidMarvanVT_Resume.pdf"
+            href={resume}
+            className="button button--flex"
+          >
             Download CV
             <img src={files} alt="" className="button__icon" />
           </a>
