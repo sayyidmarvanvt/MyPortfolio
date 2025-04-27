@@ -6,34 +6,34 @@ import emailjs from "@emailjs/browser";
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm("service_phie3fe", "template_sb6saio", form.current, {
-        publicKey: "Okzs0fYLFRZT9SGrb",
-      })
-      .then(
-        () => {
-          console.log(e.target.name.value);
+  //   emailjs
+  //     .sendForm("service_phie3fe", "template_sb6saio", form.current, {
+  //       publicKey: "Okzs0fYLFRZT9SGrb",
+  //     })
+  //     .then(
+  //       () => {
+  //         console.log(e.target.name.value);
 
-          emailjs.send(
-            "service_phie3fe",
-            "template_xiwojho",
-            {
-              name: e.target.name.value,
-              email: e.target.email.value,
-            },
-            "Okzs0fYLFRZT9SGrb"
-          );
-          e.target.reset();
-          console.log("SUCCESS!");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
-  };
+  //         emailjs.send(
+  //           "service_phie3fe",
+  //           "template_xiwojho",
+  //           {
+  //             name: e.target.name.value,
+  //             email: e.target.email.value,
+  //           },
+  //           "Okzs0fYLFRZT9SGrb"
+  //         );
+  //         e.target.reset();
+  //         console.log("SUCCESS!");
+  //       },
+  //       (error) => {
+  //         console.log("FAILED...", error.text);
+  //       }
+  //     );
+  // };
 
   return (
     <section className="contact section" id="contact">
