@@ -52,25 +52,25 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://wa.me/9567080872"
+              href="https://wa.me/+971588405809"
               className="contact__card"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">9567080872</span>
+              <span className="contact__card-data">0588405809</span>
             </a>
 
             <a
-              href="tel:+9567080872"
+              href="tel:+971588405809"
               className="contact__card"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="bx bx-phone contact__card-icon"></i>
               <h3 className="contact__card-title">Phone</h3>
-              <span className="contact__card-data">9567080872</span>
+              <span className="contact__card-data">0588405809</span>
             </a>
           </div>
         </div>
