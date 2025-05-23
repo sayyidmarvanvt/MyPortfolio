@@ -125,16 +125,16 @@ const projects = [
     image: nike,
     category: "React",
   },
-  {
-    name: "EventPlanner360",
-    description:
-      "An event planning platform for creating events, managing vendors and guests, tracking RSVPs, and sending invitations.",
-    stacks: ["React.js", "Node.js", "Express", "MongoDB", "Nodemailer"],
-    link: "https://eventplanner-frontend-sdjb.onrender.com/",
-    github: "https://github.com/sayyidmarvanvt/CBT-CIP",
-    image: eventplanner360,
-    category: "Fullstack",
-  },
+  // {
+  //   name: "EventPlanner360",
+  //   description:
+  //     "An event planning platform for creating events, managing vendors and guests, tracking RSVPs, and sending invitations.",
+  //   stacks: ["React.js", "Node.js", "Express", "MongoDB", "Nodemailer"],
+  //   link: "https://eventplanner-frontend-sdjb.onrender.com/",
+  //   github: "https://github.com/sayyidmarvanvt/CBT-CIP",
+  //   image: eventplanner360,
+  //   category: "Fullstack",
+  // },
 ];
 
 const Work = () => {
