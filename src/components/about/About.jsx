@@ -1,4 +1,3 @@
-import React from "react";
 import "./about.css";
 import { files, resume, work2 } from "../../assets/assets";
 
