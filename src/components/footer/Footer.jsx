@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.css";
 const Footer = () => {
   return (
@@ -18,8 +17,8 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="#services" className="footer__link">
-              Services
+            <a href="#skills" className="footer__link">
+              Skills
             </a>
           </li>
         </ul>
