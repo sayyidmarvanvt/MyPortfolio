@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./header.css";
 import DarkMode from "../DarkMode/DarkMode";
 
@@ -19,15 +19,15 @@ const navItems = [
     name: "Skills",
     icon: "uil uil-file-alt",
   },
-  {
-    id: "services",
-    name: "Services",
-    icon: "uil uil-briefcase-alt",
-  },
+  // {
+  //   id: "services",
+  //   name: "Services",
+  //   icon: "uil uil-briefcase-alt",
+  // },
   {
     id: "work",
     name: "Portfolio",
-    icon: "uil uil-scenery",
+    icon: "uil uil-briefcase-alt",
   },
   {
     id: "contact",
@@ -49,9 +49,6 @@ const Header = () => {
   return (
     <header className="header">
       <nav className="nav container">
-  
-         
-        
         <div className={menu ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             {navItems.map((item) => (
@@ -81,7 +78,7 @@ const Header = () => {
         <div className="nav__toggle" onClick={() => setMenu(!menu)}>
           <i className="uil uil-apps"></i>
         </div>
-        <DarkMode/>
+        <DarkMode />
       </nav>
     </header>
   );
