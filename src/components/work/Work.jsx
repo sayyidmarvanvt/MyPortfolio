@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./work.css";
 import Projects from "./Projects";
 import {
   disney,
-  eventplanner360,
   exedoestate,
   foodeli,
   gemini,
@@ -26,6 +25,16 @@ const projects = [
     category: "Fullstack",
   },
   {
+    name: "Exedo Estate",
+    description:
+      "A property listing application using the MERN stack with secure authentication and CRUD operations for managing property listings.",
+    stacks: ["React", "Redux Toolkit", "Node.js", "Express.js", "MongoDB"],
+    link: "https://real-estate-mhee.onrender.com",
+    github: "https://github.com/sayyidmarvanvt/Exedo-estate",
+    image: exedoestate,
+    category: "Fullstack",
+  },
+  {
     name: "Foodeli",
     description:
       "A food ordering platform built with the MERN stack, featuring user authentication, shopping cart, and Stripe integration.",
@@ -45,16 +54,7 @@ const projects = [
   //   image: "path_to_image",
   //   category: "Fullstack",
   // },
-  {
-    name: "Exedo Estate",
-    description:
-      "A property listing application using the MERN stack with secure authentication and CRUD operations for managing property listings.",
-    stacks: ["React", "Redux Toolkit", "Node.js", "Express.js", "MongoDB"],
-    link: "https://real-estate-mhee.onrender.com",
-    github: "https://github.com/sayyidmarvanvt/Exedo-estate",
-    image: exedoestate,
-    category: "Fullstack",
-  },
+
   // {
   //   name: "Mentorow Technology Website",
   //   description:
@@ -76,16 +76,6 @@ const projects = [
     category: "React",
   },
   {
-    name: "ModernBank",
-    description:
-      "A responsive UI for a banking web application, designed to enhance user satisfaction with effective UI/UX practices.",
-    stacks: ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
-    link: "https://modern-bankapp.vercel.app/",
-    github: "https://github.com/sayyidmarvanvt/modern-bankapp",
-    image: modernbank,
-    category: "React",
-  },
-  {
     name: "Disney+ Clone",
     description:
       "A React-based clone of Disney+, optimized with React Router and Axios for dynamic content fetching.",
@@ -95,6 +85,17 @@ const projects = [
     image: disney,
     category: "React",
   },
+  {
+    name: "ModernBank",
+    description:
+      "A responsive UI for a banking web application, designed to enhance user satisfaction with effective UI/UX practices.",
+    stacks: ["React", "Tailwind CSS", "JavaScript", "HTML", "CSS"],
+    link: "https://modern-bankapp.vercel.app/",
+    github: "https://github.com/sayyidmarvanvt/modern-bankapp",
+    image: modernbank,
+    category: "React",
+  },
+
   {
     name: "Gemini",
     description:

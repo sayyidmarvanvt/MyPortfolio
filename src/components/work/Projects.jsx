@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./work.css";
 
 const Projects = ({ projects }) => {
@@ -25,16 +24,28 @@ const Projects = ({ projects }) => {
 
             <ul className="tags">
               {project.stacks.map((stack, i) => (
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="project__link"
-                >
-                  <li key={i}>{stack}</li>
-                </a>
+                <li key={i}>{stack}</li>
               ))}
             </ul>
+
+            <div className="project__links">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project__button"
+              >
+                Live
+              </a>
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project__button"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
         </div>
       ))}
