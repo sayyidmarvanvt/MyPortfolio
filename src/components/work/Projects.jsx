@@ -5,18 +5,11 @@ const Projects = ({ projects }) => {
     <div className="work__container container grid">
       {projects.map((project, index) => (
         <div className="project__card" key={index}>
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project__link"
-          >
-            <img
-              src={project.image}
-              alt={project.name}
-              className="project__img"
-            />
-          </a>
+          <img
+            src={project.image}
+            alt={project.name}
+            className="project__img"
+          />
 
           <div className="project__data">
             <h3 className="project__title">{project.name}</h3>

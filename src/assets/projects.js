@@ -11,5 +11,6 @@ import crown from "./crown.png";
 import shadcndash from "./shadcndash.png";
 import dubairealestate from "./dubairealestate.png"
 import mode from "./mode.png"
+import taskly from "./taskly.jpg"
 
-export {disney,exedoestate,foodeli,gemini,modernbank,nike,shoppingcart,smarthost,eventplanner360,crown,shadcndash,dubairealestate,mode}
+export {disney,exedoestate,foodeli,gemini,modernbank,nike,shoppingcart,smarthost,eventplanner360,crown,shadcndash,dubairealestate,mode,taskly}

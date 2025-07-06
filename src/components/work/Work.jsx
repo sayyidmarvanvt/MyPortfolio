@@ -14,9 +14,20 @@ import {
   dubairealestate,
   shadcndash,
   mode,
+  taskly,
 } from "../../assets/projects";
 
 const projects = [
+  {
+    name: "Taskly",
+    description:
+      "A simple shopping list app built with React Native and Expo. Includes local CRUD, a countdown timer, haptic feedback, and persistent storage using AsyncStorage.",
+    stacks: ["React Native", "Expo", "AsyncStorage", "Expo Haptics"],
+    link: "https://expo.dev/accounts/sayyidmarvan/projects/taskly/builds/dd703e8e-e73f-4dc3-ae04-fad77cb8501d",
+    github: "https://github.com/sayyidmarvanvt/taskly",
+    image: taskly,
+    category: "Mobile App",
+  },
   {
     name: "Exedo Estate",
     description:
@@ -162,7 +173,6 @@ const projects = [
   },
 ];
 
-
 const Work = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -175,7 +185,6 @@ const Work = () => {
     <section className="work section" id="work">
       <h2 className="section__title">Work</h2>
       <span className="section__subtitle">Most recent works</span>
-
       <div className="work__filters container grid">
         <button
           className={`work__item ${
@@ -200,6 +209,14 @@ const Work = () => {
           onClick={() => setSelectedCategory("React")}
         >
           REACT
+        </button>
+        <button
+          className={`work__item ${
+            selectedCategory === "Mobile App" ? "active-work" : ""
+          }`}
+          onClick={() => setSelectedCategory("Mobile App")}
+        >
+          MOBILE APP
         </button>
       </div>
 
