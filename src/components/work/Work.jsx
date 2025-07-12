@@ -15,14 +15,26 @@ import {
   shadcndash,
   mode,
   taskly,
+  plantly,
 } from "../../assets/projects";
 
 const projects = [
   {
+    name: "Plantly",
+    description:
+      "A plant care app built with React Native and Expo. Users can add plants, track watering frequency, and mark them as watered.",
+    stacks: ["React Native", "Expo Image Picker"],
+    link: "https://expo.dev/accounts/sayyidmarvan/projects/plantly/builds/1a432503-c30b-4e75-8c43-46b2bef55ab9",
+    github: "https://github.com/sayyidmarvanvt/plantly",
+    image: plantly,
+    category: "Mobile App",
+  },
+
+  {
     name: "Taskly",
     description:
       "A simple shopping list app built with React Native and Expo. Includes local CRUD, a countdown timer, haptic feedback, and persistent storage using AsyncStorage.",
-    stacks: ["React Native", "Expo", "AsyncStorage", "Expo Haptics"],
+    stacks: ["React Native", "Expo", "Expo Haptics"],
     link: "https://expo.dev/accounts/sayyidmarvan/projects/taskly/builds/dd703e8e-e73f-4dc3-ae04-fad77cb8501d",
     github: "https://github.com/sayyidmarvanvt/taskly",
     image: taskly,
