@@ -16,9 +16,20 @@ import {
   mode,
   taskly,
   plantly,
+  fl3football,
 } from "../../assets/projects";
 
 const projects = [
+  {
+    name: "F13 Football Academy",
+    description:
+      "A freelance website for a football academy, built with Next.js and TypeScript. Includes Google Sheets integration for registrations.",
+    stacks: ["Next.js", "TypeScript", "Tailwind CSS", "Google Apps Script"],
+    link: "https://f13footballacademy.vercel.app/",
+    github: "https://github.com/sayyidmarvanvt/f13-football-academy-website",
+    image: fl3football,
+    category: "Fullstack",
+  },
   {
     name: "Plantly",
     description:

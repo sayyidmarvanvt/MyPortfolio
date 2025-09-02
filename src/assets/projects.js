@@ -13,6 +13,7 @@ import dubairealestate from "./dubairealestate.png";
 import mode from "./mode.png";
 import taskly from "./taskly.jpg";
 import plantly from "./plantly.jpg";
+import fl3football from "./f13football.png";
 
 export {
   disney,
@@ -30,4 +31,5 @@ export {
   mode,
   taskly,
   plantly,
+  fl3football
 };
