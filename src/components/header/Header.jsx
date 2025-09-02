@@ -44,7 +44,6 @@ const Header = () => {
   });
   const [menu, setMenu] = useState(false);
   const [active, setActive] = useState("#home");
-  console.log(active);
 
   return (
     <header className="header">
