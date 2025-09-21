@@ -109,7 +109,7 @@ const projects = [
     link: "https://dashboard-schadcn.vercel.app",
     github: "https://github.com/sayyidmarvanvt/Dashboard-schadcn",
     image: shadcndash,
-    category: "Fullstack",
+    category: "React",
   },
 
   // {
